@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+#logo {
+  width: 10em;
+}
+
+.dropdown-menu li {
+    padding-top: 7%;
+}
