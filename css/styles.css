@@ -6,6 +6,18 @@ body {
   background-color: #e0e0e0;
 }
 
+h1 {
+  font-size: 19pt;
+  font-weight: lighter;
+  line-height: 24pt;
+  padding: 5% 5% 0 5%;
+}
+
+p {
+  padding: 0 5% 5% 5%;
+  font-weight: lighter;
+}
+
 #logo {
   width: 10em;
 }
@@ -21,8 +33,18 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 0;
+  position: relative;
 }
 .mainWrap {
   max-width: 1400px;
   width: 100%;
+}
+
+.textBox {
+  background-color: #263238;
+  color: white;
+  width: 60%;
+  position:absolute;
+  top: 67%;
+  left: 4%;
 }
