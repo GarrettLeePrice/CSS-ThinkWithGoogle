@@ -2,10 +2,27 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #e0e0e0;
+}
+
 #logo {
   width: 10em;
 }
 
 .dropdown-menu li {
     padding-top: 7%;
+}
+
+.mainSection {
+  width: 100vw;
+  height: 50vh;
+  background-image: url("../img/manOnCouch.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 0;
+}
+.mainWrap {
+  max-width: 1400px;
+  width: 100%;
 }
