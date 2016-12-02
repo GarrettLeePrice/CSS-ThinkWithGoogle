@@ -4,6 +4,9 @@
 
 body {
   background-color: #e0e0e0;
+  font-family: roboto: helvetica;
+  -webkit-font-smoothing: antialiased;
+
 }
 
 h1 {
@@ -22,8 +25,18 @@ p {
   width: 10em;
 }
 
+#hideText {
+  display: none;
+}
+
 .dropdown-menu li {
     padding-top: 7%;
+}
+
+.mainWrap {
+  max-width: 1400px;
+  width: 100%;
+
 }
 
 .mainSection {
@@ -35,16 +48,227 @@ p {
   background-position: 50% 0;
   position: relative;
 }
-.mainWrap {
-  max-width: 1400px;
-  width: 100%;
-}
 
-.textBox {
+
+.mainTextBox {
   background-color: #263238;
   color: white;
-  width: 60%;
+  width: 70%;
   position:absolute;
   top: 67%;
   left: 4%;
 }
+
+.secondTextBox {
+  background-color: #0D47A1;
+  color: white;
+  width: 60%;
+  height: 100%;
+  position:absolute;
+  top: 0;
+  left: 40%;
+}
+
+.secondSection {
+  width: 100vw;
+  height: 15vh;
+  background-image: url("../img/ladyLaptop.jpg");
+  background-repeat: no-repeat;
+  background-size: 73%;
+  background-position: -90px 0;
+  position: relative;
+}
+
+.thirdTextBox {
+  background-color: #009688;
+  color: white;
+  width: 60%;
+  height: 100%;
+  position:absolute;
+  top: 0;
+  left: 40%;
+}
+
+.thirdSection {
+  width: 100vw;
+  height: 15vh;
+  background-image: url("../img/peopleTablet.jpg");
+  background-repeat: no-repeat;
+  background-size: 78%;
+  background-position: -80px 0;
+  position: relative;
+}
+
+@media screen and (min-width:600px) {
+
+    h1 {
+      font-size: 19pt;
+      font-weight: lighter;
+      line-height: 24pt;
+      padding: 0% 5% 0 5%;
+      margin-top: 3%;
+    }
+
+    p {
+      padding: 0 5% 10% 5%;
+      font-weight: lighter;
+    }
+
+    #hideText {
+      display: inline;
+    }
+
+    .mainTextBox {
+      background-color: #263238;
+      color: white;
+      width: 22em;
+      height: 22em;
+      position:absolute;
+      top: 28%;
+      left: 4%;
+    }
+
+    .mainTextBox h1 {
+      padding: 7% 7% 0 7%;
+      line-height: 25pt;
+      width: 10em;
+      text-align: left;
+    }
+
+    .mainSection p {
+      padding: 0 7% 3% 7%;
+      /*line-height: 25pt;*/
+      width: 10em;
+      text-align: left;
+    }
+
+    .mainSection {
+      width: 100vw;
+      height: 40vh;
+      background-image: url("../img/manOnCouch.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% 0;
+      position: relative;
+    }
+
+  .secondTextBox {
+    background-color: #0D47A1;
+    color: white;
+    width: 100%;
+    height: 70%;
+    position:absolute;
+    top: 100%;
+    left: 0;
+  }
+
+  .secondSection {
+    width: 50%;
+    height: 17vh;
+    background-image: url("../img/ladyLaptop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    position: relative;
+    float: left;
+  }
+
+  .thirdTextBox {
+    background-color: #009688;
+    color: white;
+    width: 100%;
+    height: 70%;
+    position:absolute;
+    top: 100%;
+    left: 0;
+  }
+
+  .thirdSection {
+    width: 50%;
+    height: 17vh;
+    background-image: url("../img/peopleTablet.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    position: relative;
+    float: left;
+  }
+
+  @media screen and (min-width:1000px) {
+
+    .mainTextBox {
+      background-color: #263238;
+      color: white;
+      width: 22em;
+      height: 22em;
+      position:absolute;
+      top: 28%;
+      left: 4%;
+    }
+
+    .mainTextBox h1 {
+      padding: 7% 7% 0 7%;
+      line-height: 25pt;
+      width: 10em;
+      text-align: left;
+    }
+
+    .mainSection p {
+      padding: 0 7% 3% 7%;
+      /*line-height: 25pt;*/
+      width: 10em;
+      text-align: left;
+    }
+
+    .mainSection {
+      width: 70vw;
+      height: 50vh;
+      background-image: url("../img/manOnCouch.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% 0;
+      position: relative;
+      float: left;
+    }
+
+  .secondTextBox {
+    background-color: #0D47A1;
+    color: white;
+    width: 100%;
+    height: 70%;
+    position:absolute;
+    top: 100%;
+    left: 0;
+  }
+
+  .secondSection {
+    width: 30%;
+    height: 17vh;
+    background-image: url("../img/ladyLaptop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    position: relative;
+    float: left;
+  }
+
+  .thirdTextBox {
+    background-color: #009688;
+    color: white;
+    width: 100%;
+    height: 70%;
+    position:absolute;
+    top: 100%;
+    left: 0;
+  }
+
+  .thirdSection {
+    width: 30%;
+    height: 17vh;
+    background-image: url("../img/peopleTablet.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    position: relative;
+    float: left;
+  }
