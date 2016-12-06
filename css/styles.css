@@ -13,12 +13,12 @@ body {
 h1 {
   font-size: 19pt;
   font-weight: lighter;
-  line-height: 24pt;
-  padding: 5% 5% 0 5%;
+  line-height: normal;
+  padding: 0 5% 0 5%;
 }
 
 p {
-  padding: 0 5% 5% 5%;
+  padding: 0 5% 0 5%;
   font-weight: lighter;
 }
 
@@ -54,9 +54,9 @@ p {
 .mainTextBox {
   background-color: #263238;
   color: white;
-  width: 70%;
+  width: 80%;
   position:absolute;
-  top: 67%;
+  top: 55%;
   left: 4%;
 }
 
@@ -68,8 +68,18 @@ p {
   position:absolute;
   top: 0;
   left: 40%;
+
 }
 
+.secondTextBox h1 {
+  font-size: 14pt;
+  /*line-height: normal;*/
+}
+
+.secondTextBox p {
+  margin-top: -7px;
+  /*line-height: normal;*/
+}
 .secondSection {
   width: 100vw;
   height: 15vh;
@@ -78,6 +88,16 @@ p {
   background-size: 73%;
   background-position: -90px 0;
   position: relative;
+}
+
+.thirdTextBox h1 {
+  font-size: 14pt;
+  /*line-height: normal;*/
+}
+
+.thirdTextBox p {
+  margin-top: -7px;
+  /*line-height: normal;*/
 }
 
 .thirdTextBox {
@@ -105,7 +125,7 @@ p {
     h1 {
       font-size: 19pt;
       font-weight: lighter;
-      line-height: 24pt;
+      line-height: normal;
       padding: 0% 5% 0 5%;
       margin-top: 3%;
     }
@@ -113,6 +133,7 @@ p {
     p {
       padding: 0 5% 10% 5%;
       font-weight: lighter;
+      line-height: normal;
     }
 
     #hideText {
@@ -196,6 +217,11 @@ p {
   }
 
   @media screen and (min-width:1000px) {
+
+    /*h1 {
+      padding: 0;
+      margin:0;
+    }*/
 
     .mainTextBox {
       background-color: #263238;
