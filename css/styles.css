@@ -97,6 +97,7 @@ p {
 
 .thirdTextBox p {
   margin-top: -7px;
+
 }
 
 .thirdTextBox {
@@ -138,6 +139,7 @@ p {
     #hideText {
       display: inline;
     }
+
 
     .mainTextBox {
       background-color: #263238;
@@ -218,6 +220,11 @@ p {
 
   @media screen and (min-width:1000px) {
 
+    /*h1 {
+      padding: 0;
+      margin:0;
+    }*/
+
     .mainTextBox {
       background-color: #263238;
       color: white;
@@ -245,7 +252,8 @@ p {
 
     .mainSection {
       width: 60vw;
-      height: 65.9vh;
+      height: 66.75vh;
+      min-height: 645px;
       max-width: 70%;
       background-image: url("../img/manOnCouch.jpg");
       background-repeat: no-repeat;
@@ -261,6 +269,7 @@ p {
     color: white;
     width: 100%;
     height: 12vh;
+    min-height: 126px;
     position:absolute;
     top: 100%;
     left: 0;
@@ -269,6 +278,7 @@ p {
   .secondSection {
     width: 100%;
     height: 21vh;
+    min-height: 200px;
     max-width: 25%;
     background-image: url("../img/ladyLaptop.jpg");
     background-repeat: no-repeat;
@@ -283,15 +293,16 @@ p {
     color: white;
     width: 100%;
     height: 12vh;
+    min-height: 126px;
     position:absolute;
     top: 100%;
     left: 0;
-    padding-top:
   }
 
   .thirdSection {
     width: 100%;
     height: 21vh;
+    min-height: 200px;
     max-width: 25%;
     background-image: url("../img/peopleTablet.jpg");
     background-repeat: no-repeat;
@@ -301,6 +312,8 @@ p {
     float: left;
     margin-top: 117px;
   }
+
+
 
   .clearfix::after {
   content: "";
