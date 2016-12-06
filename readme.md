@@ -1,6 +1,6 @@
-# _Think With Google Mock_
+# _Think With Google Mock-up_
 
-#### _This site os a re-creation of the thinkwithgoogle.com website_
+#### _This site is a re-creation of the thinkwithgoogle.com website_
 
 #### By _**Garrett Price**_
 
